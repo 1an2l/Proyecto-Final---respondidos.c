@@ -23,7 +23,7 @@ int main ()
     system("cls");
 
     //Mensaje de Bienvenida
-    printf("\033[0;33m");
+    printf("\033[4;33m");
     printf("\n\n\t\t\t%c Bienvenidos a respondidos.c %c\n\n",dg ,dg);
 	printf("\033[0m");
 
@@ -182,7 +182,7 @@ int main ()
         case 2:
                 //Imprime en pantalla opcion salir
                 printf("\033[01;32m");
-                printf("\n\tElegiste la opci%cn salir\n\n",ao);
+                printf("\n\tElegiste la opci%cn salir\n\nGracias por usar respondidos.c regrese pronto =)\n\n",ao);
                 printf("\033[0m");
                 break;
 
